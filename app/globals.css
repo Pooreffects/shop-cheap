@@ -2,15 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Montez&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   background-color: rgb(214 211 209);
+  --primary-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Josefin Slab', serif;
+  --stylish-font: 'Montez', cursive;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    background-color: rgb(28 25 23);
-  }
-} */
 
 @layer utilities {
   .text-balance {
