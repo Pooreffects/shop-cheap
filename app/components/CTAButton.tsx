@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
 interface CTAButtonTypes {
+  className: string;
   title: string;
   link: string;
-  className: string;
 }
 
 export default function CTAButton({ title, className, link }: CTAButtonTypes) {
