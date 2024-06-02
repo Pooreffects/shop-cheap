@@ -3,7 +3,7 @@ import Link from 'next/link';
 import ThemeSwitch from './ThemeSwitch';
 import CTAButton from './CTAButton';
 import { usePathname } from 'next/navigation';
-interface NavLink {
+export interface NavLink {
   label: string;
   href: string;
 }
@@ -12,7 +12,6 @@ interface NavProps {
 }
 
 /* Todo: 
-      Dynamically render the Header links according to each page's dedicated navlinks
       Header styles: if navlinks ? rejustify content flex conditionally : space-between  
 */
 
